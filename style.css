@@ -140,7 +140,7 @@ body {
     border-bottom: 1px solid var(--light-grayish-blue);
 }
 
-@media (max-width: 840px) {
+@media (max-width: 960px) {
     .container {
         width: 350px;
         height: 550px;
