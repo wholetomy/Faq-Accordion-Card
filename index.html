@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script> 
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="side1">
+      <div class="img"></div>
+      <div class="box"></div>
+      <div class="shadow"></div>
+    </div>
+    <div class="side2">
+      <div class="header">
+        <p>FAQ</p>
+      </div>
+      <div class="expansive">
+        <div class="expansive-title" onclick="Expand(0)">
+          <p>How many team members can I invite?</p>
+          <img class="arrow" src="images/icon-arrow-down.svg">
+        </div>
+        <div class="panel">
+          <p>You can invite up to 2 additional users on the Free plan. There is no limit on
+            team members for the Premium plan.</p>
+        </div>
+      </div>
+      <div class="expansive">
+        <div class="expansive-title" onclick="Expand(1)">
+          <p>What is the maximum file upload size?</p>
+          <img class="arrow" src="images/icon-arrow-down.svg">
+        </div>
+        <div class="panel">
+          <p>No more than 2GB. All files in your account must fit your allotted storage space.</p>
+        </div>
+      </div>
+      <div class="expansive">
+        <div class="expansive-title" onclick="Expand(2)">
+          <p>How do I reset my password?</p>
+          <img class="arrow" src="images/icon-arrow-down.svg">
+        </div>
+        <div class="panel">
+          <p>Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.</p>
+        </div>
+      </div>
+      <div class="expansive">
+        <div class="expansive-title" onclick="Expand(3)">
+          <p>Can I cancel my subscription?</p>
+          <img class="arrow" src="images/icon-arrow-down.svg">
+        </div>
+        <div class="panel">
+          <p>Yes! Send us a message and we’ll process your request no questions asked.</p>
+        </div>
+      </div>
+      <div class="expansive">
+        <div class="expansive-title" onclick="Expand(4)">
+          <p>Do you provide additional support?</p>
+          <img class="arrow" src="images/icon-arrow-down.svg">
+        </div>
+        <div class="panel">
+          <p>Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
