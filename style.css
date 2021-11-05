@@ -37,6 +37,7 @@ body {
 .side1 {
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .side1 img {
@@ -47,12 +48,12 @@ body {
 
 .img {
     width: 472px;
-    height: 360px;
+    height: 485px;
     transform: translateX(-18%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 421px 322px;
-    background-image: url(images/illustration-woman-online-desktop.svg);
+    background-position: center, right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 433px 322px, 562px 567px;
+    background-image: url(images/illustration-woman-online-desktop.svg), url(images/bg-pattern-desktop.svg);
 }
 
 .box {
@@ -62,17 +63,6 @@ body {
     margin-top: 87px;
     margin-left: -91px;
     background-image: url(images/illustration-box-desktop.svg);
-}
-
-.shadow {
-    width: 692px;
-    height: 660px;
-    position: fixed;
-    margin-top: -71px;
-    margin-left: -329px;
-    background-repeat: no-repeat;
-    background-size: 692px 660px;
-    background-image: url(images/bg-pattern-desktop.svg);
 }
 
 .side2 {
@@ -145,36 +135,30 @@ body {
         width: 350px;
         height: 550px;
         display: flex;
-        overflow: hidden;
+        overflow: unset;
         flex-direction: column;
         background-color: var(--white);
     }
 
     .img {
         width: 257px;
-        margin: 50px;
-        height: 194px;
+        margin: 25px 50px;
+        height: 257px;
         transform: unset;
-        position: fixed;
+        position: unset;
         background-size: unset;
-        transform: translateY(-10%);
-        background-position: center;
-        background-image: url(images/illustration-woman-online-mobile.svg);
+        transform: translateY(-30%);
+        background-position: center, bottom;
+        background-image: url(images/illustration-woman-online-mobile.svg), url(images/bg-pattern-mobile.svg);
     }
 
     .box {
         display: none;
     }
 
-    .shadow {
-        width: 257px;
-        height: 155px;
-        position: fixed;
-        margin-top: 155px;
-        margin-left: 50px;
-        background-repeat: no-repeat;
-        background-size: 257px 116px;
-        background-image: url(images/bg-pattern-mobile.svg);
+    .side1 {
+        overflow: unset;
+        height: 120px;
     }
 
     .side2 {
@@ -182,7 +166,6 @@ body {
         font-size: 14px;
         transform: unset;
         padding-top: unset;
-        padding-top: 110px;
         padding-right: unset;
     }
 
